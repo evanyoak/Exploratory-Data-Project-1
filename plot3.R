@@ -23,6 +23,3 @@ axis(1, at = c(0, 1500, 2880), labels=c("Thu", "Fri", "Sat"))
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd = 1, col = c("black", "red", "blue"))
 dev.off()
 
-#Saving PNG
-#dev.copy(png, file = "plot3.png")
-#dev.off()
